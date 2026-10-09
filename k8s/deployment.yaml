@@ -15,7 +15,7 @@ spec:
         app: nginx
     spec:
       containers:
-        - name: raghav77777
-          image: zomato
+        - name: nginx
+          image: zomato:raghav77777
           ports:
             - containerPort: 80
